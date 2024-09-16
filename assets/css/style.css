@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  border: 2px solid black;
+  margin: 28px auto;
+  z-index: 300;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+.draggable {
+  width: 275px;
+  height: 175px;
+  padding: 0.5px;
+}
+
+#datePicker {
+  margin: 10px;
+}
